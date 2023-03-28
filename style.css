@@ -1,0 +1,26 @@
+.keyboard {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.key-row {
+  display: flex;
+}
+
+.key {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #f2f2f2;
+}
